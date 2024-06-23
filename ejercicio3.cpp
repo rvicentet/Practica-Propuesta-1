@@ -14,6 +14,12 @@ float suma(int a){
     float s=0;
     for(int i=1;i<=a;i++){
         s=s+(float(factorial(i))/(2*i));
+        if(i!=a){
+        	cout<<(float(factorial(i))/(2*i))<<" + "<<endl;
+		}
+		else{
+			cout<<(float(factorial(i))/(2*i))<<" = "<<endl;
+		}
     }
     return s;
 }

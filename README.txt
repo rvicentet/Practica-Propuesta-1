@@ -1,1 +1,2 @@
 Añadir codigo original de los diagramas de flujo y .gitignore para los archivos .exe
+Segundo commit: Se añadio una verificacion a la operacion / para que op2 no sea igual a 0. Se reemplazo el int c con el boolena pesi para habilitar el uso de un break en el bucle principal, recortando la cantidad de codigo. Se cambio el unico float en la funcion suma para poner en pantalla cada cantidad que se añade a la sumatoria.

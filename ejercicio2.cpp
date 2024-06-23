@@ -5,20 +5,18 @@ using namespace std;
 int main(){
     int n1;
 	int n2;
-	int c=0;
+	bool pesi=false;
 	int i=1;
     cin>>n1;
     cin>>n2;
     while(i<=n1&&i<=n2){
-        if(n1%i==0&&n2%i==0){
-            c++;
+        if(n1%i==0&&n2%i==0&&i!=1){
+            pesi=true;
+			break;
         }
         i++;
     }
-    if(c>1){
-        cout<<"No son PESI";
-    }
-	else{
-        cout<<"Son PESI";
-    }
+    if(pesi=true){
+    	cout<<"Son PESI";
+	}
 	}

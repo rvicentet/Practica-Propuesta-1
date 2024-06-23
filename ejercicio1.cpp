@@ -21,9 +21,14 @@ int main(){
 			r=op1*op2;
 			break;
 		case '/':
+			if(op2==0){
+			cout<<"La division es indefinida, el resultado es invalido"<<endl;
+			break;
+			}
 			r=op1/op2;
 			break;
 	}
+	
 	cout<<"El resultado es: "<<r<<endl;
 	return 0;
 }
